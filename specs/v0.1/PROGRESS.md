@@ -128,6 +128,14 @@
 - 검증: 링크 검사: Markdown 19개, 상대 링크 29개 중 깨짐 0, UTF-8 오류 0. 가이드 문서(README·AGENTS·CLAUDE·docs/WORKFLOW·DOCUMENTS·templates)에 refs/ 언급 0건.
 - 상태: 완료
 
+### INTENT 이름 정정·중복 문장 정리 (2026-11-01)
+
+- 요청: INTENT 검토 결과 중 "1, 2번 수정해 주세요"
+- 조치: 루트 INTENT.md 제목과 README.md 제목의 프로젝트명을 레포명 `project-workflow-compact`로 바꿨다. INTENT "무엇을 하는가"에서 같은 뜻의 두 문장("문서 기반 레포"·"문서 가이드")을 한 문장으로 합쳤다. 원본 project-workflow를 가리키는 문장(README 마지막 줄, HERDR 기록)과 specs/v0.1/INTENT.md는 그대로 두었다.
+- 결과: 루트 INTENT·README 제목이 레포명과 같다.
+- 검증: `grep`으로 레포명 아닌 `project-workflow` 표기가 원본 지칭(README·HERDR 기록)과 specs/ 안에만 남은 것을 확인.
+- 상태: 완료
+
 ## 버전 종료
 
 - 사용자 종료 판단: 대기.

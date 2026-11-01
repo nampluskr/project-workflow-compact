@@ -1,4 +1,4 @@
-# project-workflow
+# project-workflow-compact
 
 프로젝트를 시작할 때 참고하고 활용할 문서 기반 레포다. 새 프로젝트를 열 때마다 여기서 가져다 쓰고, 새 버전을 시작할 때도 참고한다. 읽는 쪽에는 AI 에이전트도 포함된다. 이 레포가 무엇을 왜 하고 어떤 원칙을 지키는지는 [INTENT.md](INTENT.md)에 있다.
 
